@@ -24,7 +24,7 @@ spec:
               valueFrom:
                 secretKeyRef:
                   name: pgpassword
-                  key: PSPASSWORD
+                  key: PGPASSWORD
           ports:
             - containerPort: 5432
           volumeMounts: 
